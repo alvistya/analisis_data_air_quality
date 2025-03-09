@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Data
-st_cleaned_tiantan = pd.read_csv('cleaned_Tiantan.csv', parse_dates=['datetime'])
-st_cleaned_shunyi = pd.read_csv('cleaned_Shunyi.csv', parse_dates=['datetime'])
-st_cleaned_wanliu = pd.read_csv('cleaned_Wanliu.csv', parse_dates=['datetime'])
+st_cleaned_tiantan = pd.read_csv('/mount/src/analisis_data_air_quality/dashboard/cleaned_Tiantan.csv', parse_dates=['datetime'])
+st_cleaned_shunyi = pd.read_csv('/mount/src/analisis_data_air_quality/dashboard/cleaned_Shunyi.csv', parse_dates=['datetime'])
+st_cleaned_wanliu = pd.read_csv('/mount/src/analisis_data_air_quality/dashboard/cleaned_Wanliu.csv', parse_dates=['datetime'])
 
 pollutants = ['PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']
 
