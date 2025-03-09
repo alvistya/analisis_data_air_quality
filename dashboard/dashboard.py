@@ -68,11 +68,11 @@ elif st.session_state.selected_button == "Kadar Polutan":
 
     # Menampilkan gambar berdasarkan kadar CO2
     if kadar < 50:
-        st.image("assets/good.jpg", caption="Kualitas Udara Baik 😊")
+        st.image("/mount/src/analisis_data_air_quality/dashboard/assets/good.jpg", caption="Kualitas Udara Baik 😊")
     elif kadar < 100:
-        st.image("assets/moderate.jpeg", caption="Kualitas Udara Sedang 😐")
+        st.image("/mount/src/analisis_data_air_quality/dashboard/assets/moderate.jpeg", caption="Kualitas Udara Sedang 😐")
     elif kadar < 200:
-        st.image("assets/unhealthy.jpg", caption="Kualitas Udara Tidak Sehat 😷")
+        st.image("/mount/src/analisis_data_air_quality/dashboard/assets/unhealthy.jpg", caption="Kualitas Udara Tidak Sehat 😷")
     else:
-        st.image("assets/hazardous.jpeg", caption="Kualitas Udara Berbahaya ☠️")
+        st.image("/mount/src/analisis_data_air_quality/dashboard/assets/hazardous.jpeg", caption="Kualitas Udara Berbahaya ☠️")
 
